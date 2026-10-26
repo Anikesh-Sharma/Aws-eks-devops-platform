@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!example.tfvars
+crash.log
+
+# Secrets & keys (never commit these)
+.env
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+.vscode/
